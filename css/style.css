@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#header {
+    background-color: #c2b08c;
+    padding: 50px;
+    text-align: center ;
+    
+}
+#header .header_logo  img{
+    width:  100px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+
+}
+
+
+#header .header_menu ul li{
+    display: inline;
+    list-style: none;
+}
+
+
+
+#header .header_menu ul li a {
+    text-decoration: none;
+    background-color: #209688;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;    
+}
+
+#header .header_menu ul li a:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+.MenuPrincipal  {
+    background-color: black;
+    text-align: center;
+    height: 1000px;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color:black;
+    padding: 300px ;
+    overflow: auto;
+    
+    
+}
+.MenuPrincipal h1,
+.MenuPrincipal p,
+.MenuPrincipal div {
+    height: auto;
+    background-color:#c2b08c;
+    border: 10px solid black;
+    font-size: 30px;
+    margin: 25px 10px 25px 10px;
+}
+
+
+
+
+#section .section_gorras{
+    background-color: #c2b08c;
+    width: auto;
+    height: auto; 
+    padding: 50px;       
+    
+}
+
+
+#section .section_gorras a img {
+    width: 100 px;
+    height: auto;
+    border: 10px solid black;
+    height: auto;
+    border-radius: 30px;
+}
+
+#section .section_historia{
+    background-color: #c2b08c;
+    width: auto;
+    height: auto;
+}
+
+#footer .footer_redes {
+    background-color: #be4223;
+    width: auto;
+    height: auto;
+    border: 5px solid black;
+    border-left-color: #be4223;
+    border-right-color: #be4223;
+    border-bottom-color: #be4223;
+;
+}
+
+#footer .footer_redes img{
+    width: 50px;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.BoxPositionFix {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.BoxPositionFix a img{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
