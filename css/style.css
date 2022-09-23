@@ -5,6 +5,8 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+
+
 #header {
     background-color: #c2b08c;
     padding: 50px;
@@ -12,7 +14,7 @@
     
 }
 #header .header_logo  img{
-    width:  100px;
+    width:  75px;
     height: auto;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -54,16 +56,9 @@
     overflow: auto;
     
     
+    
 }
-.MenuPrincipal h1,
-.MenuPrincipal p,
-.MenuPrincipal div {
-    height: auto;
-    background-color:#c2b08c;
-    border: 10px solid black;
-    font-size: 30px;
-    margin: 25px 10px 25px 10px;
-}
+
 
 
 
@@ -92,13 +87,11 @@
 }
 
 #footer .footer_redes {
-    background-color: #be4223;
+    background-color: #c2b08c;
     width: auto;
     height: auto;
     border: 5px solid black;
-    border-left-color: #be4223;
-    border-right-color: #be4223;
-    border-bottom-color: #be4223;
+    
 ;
 }
 
@@ -122,3 +115,25 @@
     height: auto;
     border-radius: 10px;
 }
+
+ .carousel-inner img{
+    width: 50%;
+    height: 400px;
+    border: 10px solid black;
+    
+    border-radius: 30px;
+}
+
+.MenuPrincipal div {
+
+    background-color: white;
+}
+
+#grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+ 
