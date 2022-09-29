@@ -52,11 +52,9 @@
     background-size: cover;
     color:black;
     overflow: auto;
-    
-    
-
-
 }
+
+
 
 
 
@@ -149,14 +147,28 @@
 }
 
 
+.MenuGorras div div{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: transparent;
+    margin: auto;
+    transition: all 1s;    
+}
+
+.MenuGorras div div:hover{
+    transform: scale(1);
+    background-color: #c2b08c;
+}
 
 
 #grid {
-
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    
+    grid-template-columns: 1fr 1fr 1fr;    
 }
+
+
 
 .circular{
     border-radius: 50%;
