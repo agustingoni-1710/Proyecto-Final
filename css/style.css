@@ -9,52 +9,14 @@
 
 
 
-/* #header {
-    background-color: #c2b08c;
-    text-align: center ;
-    
-} */
-/* #header .header_logo  img{
-    width:  75px;
-    height: auto;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    
-
-} */
 
 
-/* #header .header_menu ul li{
-    display: inline;
-    list-style: none;
-} */
-
-
-
-/* #header .header_menu ul li a {
-    text-decoration: none;
-    background-color: #209688;
-    color: black;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 10px;    
-} */
 
 #header .header_menu ul li a:hover {
     background-color: aquamarine;
     color: blue;
 }
-/* .MenuPrincipal {
-    background-color: black;
-    text-align: center;
-    height: 1000px;
-    background-image: url('../img/logo.png');
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-size: cover;
-    color:black;
-    overflow: auto;
-} */
+
 
 
 
@@ -123,105 +85,3 @@
        
     border-radius: 200px;
 }
-
-/* .MenuPrincipal div {
-
-    background-color: transparent;
-    padding-top: 20px;
-    color: aliceblue;
-    font-size: xx-large;
-    
-    
-} */
-
-/* .MenuPrincipal .boxPrincipal{
-    color: black;
-    background-color: #c2b08c;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    border: 10px solid black;
-    border-radius: 50px ;
-    width: 50%;
-    margin: auto;
-} */
-
-
-/* .MenuGorras div div{
-    font-size: medium;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: transparent;
-    margin: auto;
-    transition: all 1s;    
-} */
-
-/* .MenuGorras div div:hover{
-    transform: scale(1);
-    background-color: #c2b08c;
-} */
-
-
-/* #grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;    
-} */
-
-
-
-/* .circular{
-    border-radius: 50%;
-} */
-
-
-
-/* .colorTexto {
-    
-    color: black;
-    background-color: white;
-}
- */
-/* css carousel  */
-
-      /* .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-        
-        
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      } */
-      
-
-      
-   
- 
