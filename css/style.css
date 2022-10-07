@@ -1,3 +1,5 @@
+/* CSS PROPIO NATIVO */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,42 +9,42 @@
 
 
 
-#header {
+/* #header {
     background-color: #c2b08c;
     text-align: center ;
     
-}
-#header .header_logo  img{
+} */
+/* #header .header_logo  img{
     width:  75px;
     height: auto;
     margin-bottom: 15px;
     border-radius: 10px;
     
 
-}
+} */
 
 
-#header .header_menu ul li{
+/* #header .header_menu ul li{
     display: inline;
     list-style: none;
-}
+} */
 
 
 
-#header .header_menu ul li a {
+/* #header .header_menu ul li a {
     text-decoration: none;
     background-color: #209688;
     color: black;
     padding: 10px 20px;
     margin: 10px;
     border-radius: 10px;    
-}
+} */
 
 #header .header_menu ul li a:hover {
     background-color: aquamarine;
     color: blue;
 }
-.MenuPrincipal  {
+/* .MenuPrincipal {
     background-color: black;
     text-align: center;
     height: 1000px;
@@ -52,7 +54,7 @@
     background-size: cover;
     color:black;
     overflow: auto;
-}
+} */
 
 
 
@@ -122,7 +124,7 @@
     border-radius: 200px;
 }
 
-.MenuPrincipal div {
+/* .MenuPrincipal div {
 
     background-color: transparent;
     padding-top: 20px;
@@ -130,9 +132,9 @@
     font-size: xx-large;
     
     
-}
+} */
 
-.MenuPrincipal .boxPrincipal{
+/* .MenuPrincipal .boxPrincipal{
     color: black;
     background-color: #c2b08c;
     display: flex;
@@ -144,10 +146,10 @@
     border-radius: 50px ;
     width: 50%;
     margin: auto;
-}
+} */
 
 
-.MenuGorras div div{
+/* .MenuGorras div div{
     font-size: medium;
     display: flex;
     flex-direction: column;
@@ -155,36 +157,36 @@
     border: transparent;
     margin: auto;
     transition: all 1s;    
-}
+} */
 
-.MenuGorras div div:hover{
+/* .MenuGorras div div:hover{
     transform: scale(1);
     background-color: #c2b08c;
-}
+} */
 
 
-#grid {
+/* #grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;    
-}
+} */
 
 
 
-.circular{
+/* .circular{
     border-radius: 50%;
-}
+} */
 
 
 
-.colorTexto {
+/* .colorTexto {
     
     color: black;
     background-color: white;
 }
-
+ */
 /* css carousel  */
 
-      .bd-placeholder-img {
+      /* .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
         -webkit-user-select: none;
@@ -217,7 +219,7 @@
       .bi {
         vertical-align: -.125em;
         fill: currentColor;
-      }
+      } */
       
 
       
