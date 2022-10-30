@@ -27,15 +27,35 @@
     }    
 }
 .MenuPrincipal{
-    background-color: black;
     text-align: center;
+    position: relative;
     height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black;
     background-image: url('../img/logo.png');
     background-repeat: no-repeat;
     background-position: center ;
-    background-size: cover;
+    background-size: cover; */
     color:black;
     overflow: auto;
+    
+
+    /* &::before{
+        content: "";
+        background-image: url(../img/logo.png);
+        background-size: cover;
+        opacity: 0,75;
+        top: 0px;
+        left:0px;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;        
+    } */
+    
+    
     div{
         background-color: transparent;
         padding-top: 20px;
@@ -67,6 +87,7 @@
         
     }    
 }
+
 .MenuGorras{
     div{
         div{
