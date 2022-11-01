@@ -26,41 +26,40 @@
         }        
     }    
 }
+/* MAIN */
 .MenuPrincipal{
     text-align: center;
     position: relative;
-    height: 1000px;
-    width: 100%;
-    display: flex;
+    height: auto;
+    width: auto;
     align-items: center;
     justify-content: center;
-    /* background-color: black;
-    background-image: url('../img/logo.png');
+    background-color: white;
     background-repeat: no-repeat;
-    background-position: center ;
-    background-size: cover; */
     color:black;
     overflow: auto;
     
 
-    /* &::before{
+    &::before{
         content: "";
         background-image: url(../img/logo.png);
-        background-size: cover;
-        opacity: 0,75;
+        background-position: center ;
+        opacity:0.3;
         top: 0px;
         left:0px;
         bottom: 0px;
         right: 0px;
         position: absolute;        
-    } */
+    } 
     
     
     div{
         background-color: transparent;
-        padding-top: 20px;
+        padding-top: 10px;
         color: aliceblue;
         font-size: xx-large;
+        position: relative;
+        
         
     }
     .boxPrincipal{
@@ -75,21 +74,25 @@
         border-radius: 50px ;
         width: 50%;
         margin: auto;
+        position: relative;
         iframe{
             width: 100%;
-            height: 450px;
+            height: 250px;
         }
     }
     @media (min-width: $vistaDesktop) {
         iframe{
-            max-width: 600px;
+            max-width: 300px;
         }
         
-    }    
+    }
 }
+
+
 
 .MenuGorras{
     div{
+        
         div{
             font-size: medium;
             display: flex;
@@ -97,17 +100,19 @@
             justify-content: center;
             border: transparent;
             margin: auto;
-            transition: all 1s; 
+            transition: all 1s;
+            a{
+                background-color:$bgbutton;
+                border: $bgbutton;       
+            }
             &:hover{
                 transform: scale(1);
                 background-color: $bgheaderfooter; 
             }
+            
+            
         }
     }
-}
-#grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;    
 }
 .circular{
     border-radius: 50%;
@@ -115,7 +120,7 @@
 .colorTexto {
     
     color: $bgtextoborde;
-    background-color: $bgfondotexto;
+    /* background-color: $bgfondotexto; */
 }
 /* css carousel */
 
@@ -149,4 +154,69 @@
     vertical-align: -.125em;
     fill: currentColor;
   }
+  /* section videos */
+#section{
+    .section_gorras{
+        background-color: #c2b08c;
+        width: auto;
+        height: auto; 
+        padding: 50px;
+        a img {
+            width: 100 px;
+            height: auto;
+            border: 10px solid black;
+            height: auto;
+            border-radius: 30px;
+        }
+        iframe{
+            width: 100%;
+            height: 450px;
+        }
+        @media (min-width: $vistaDesktop) {
+            iframe{
+                max-width: 600px;
+            }
+            
+        }
 
+    }
+    .section_historia{
+        background-color: #c2b08c;
+        width: auto;
+        height: auto;
+    }
+}
+/* footer */
+#footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    bottom: 0;
+    width: auto;
+    justify-content: center;
+    .footer_redes{
+        background-color: #c2b08c;
+        width: auto;
+        height: auto;
+        border: 5px solid black;
+        img{
+            width: 50px;
+            padding: 10px;
+            height: auto;
+            border-radius: 10px;    
+        }    
+    }
+}
+
+.BoxPositionFix {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    a img{
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+    }
+}

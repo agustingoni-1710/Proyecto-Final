@@ -22,22 +22,36 @@
   border-radius: 10px;
 }
 
+/* MAIN */
 .MenuPrincipal {
-  background-color: black;
   text-align: center;
-  height: 1000px;
-  background-image: url("../img/logo.png");
+  position: relative;
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   color: black;
   overflow: auto;
 }
+.MenuPrincipal::before {
+  content: "";
+  background-image: url(../img/logo.png);
+  background-position: center;
+  opacity: 0.3;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
 .MenuPrincipal div {
   background-color: transparent;
-  padding-top: 20px;
+  padding-top: 10px;
   color: aliceblue;
   font-size: xx-large;
+  position: relative;
 }
 .MenuPrincipal .boxPrincipal {
   color: black;
@@ -51,14 +65,15 @@
   border-radius: 50px;
   width: 50%;
   margin: auto;
+  position: relative;
 }
 .MenuPrincipal .boxPrincipal iframe {
   width: 100%;
-  height: 450px;
+  height: 250px;
 }
 @media (min-width: 768px) {
   .MenuPrincipal iframe {
-    max-width: 600px;
+    max-width: 300px;
   }
 }
 
@@ -71,14 +86,13 @@
   margin: auto;
   transition: all 1s;
 }
+.MenuGorras div div a {
+  background-color: #c2402a;
+  border: #c2402a;
+}
 .MenuGorras div div:hover {
   transform: scale(1);
   background-color: #c2b08c;
-}
-
-#grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .circular {
@@ -87,7 +101,7 @@
 
 .colorTexto {
   color: black;
-  background-color: white;
+  /* background-color: $bgfondotexto; */
 }
 
 /* css carousel */
@@ -122,4 +136,68 @@
 .bi {
   vertical-align: -0.125em;
   fill: currentColor;
+}
+
+/* section videos */
+#section .section_gorras {
+  background-color: #c2b08c;
+  width: auto;
+  height: auto;
+  padding: 50px;
+}
+#section .section_gorras a img {
+  width: 100 px;
+  height: auto;
+  border: 10px solid black;
+  height: auto;
+  border-radius: 30px;
+}
+#section .section_gorras iframe {
+  width: 100%;
+  height: 450px;
+}
+@media (min-width: 768px) {
+  #section .section_gorras iframe {
+    max-width: 600px;
+  }
+}
+#section .section_historia {
+  background-color: #c2b08c;
+  width: auto;
+  height: auto;
+}
+
+/* footer */
+#footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  bottom: 0;
+  width: auto;
+  justify-content: center;
+}
+#footer .footer_redes {
+  background-color: #c2b08c;
+  width: auto;
+  height: auto;
+  border: 5px solid black;
+}
+#footer .footer_redes img {
+  width: 50px;
+  padding: 10px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.BoxPositionFix {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.BoxPositionFix a img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
